@@ -10,4 +10,5 @@ puts "Give me a string!"
 input = gets.chomp!
 suffix = "ay"
 str = input.dup.downcase.chars.rotate(1).join("")
-puts suffix.prepend(str.capitalize)
+p_latin_str = suffix.prepend(str.capitalize)
+puts p_latin_str
