@@ -9,5 +9,5 @@
 puts "Give me a string!"
 input = gets.chomp!
 suffix = "ay"
-str = input.dup.chars.rotate(1).join("")
-puts suffix.prepend(str)
+str = input.dup.downcase.chars.rotate(1).join("")
+puts suffix.prepend(str.capitalize)
