@@ -1,4 +1,6 @@
 = BEGINNER PROJECTS
+:toc: left
+:icons: font
 
 == Text
 
